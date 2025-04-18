@@ -15,7 +15,10 @@
 include:
   - board: nice_nano_v2
     shield: lily58_left nice_view_adapter nice_view
+    cmake-args:
+      - DCONFIG_ZMK_KEYBOARD_NAME=\"Squawk58\"
   - board: nice_nano_v2
     shield: lily58_right nice_view_adapter nice_view
+      - DCONFIG_ZMK_KEYBOARD_NAME=\"Squawk58\"
   - board: nice_nano_v2
     shield: settings_reset
