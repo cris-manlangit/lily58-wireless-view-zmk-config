@@ -17,9 +17,14 @@
             key-positions = <26 27>;
         };
 
-        space {
-            bindings = <&kp SPACE>;
+        enter {
+            bindings = <&kp ENTER>;
             key-positions = <32 33>;
+        };
+
+        del {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <20 21>;
         };
     };
 
