@@ -26,16 +26,6 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <20 21>;
         };
-
-        left {
-            bindings = <&kp LEFT>;
-            key-positions = <25 26>;
-        };
-
-        right {
-            bindings = <&kp RIGHT>;
-            key-positions = <33 34>;
-        };
     };
 
     keymap {
